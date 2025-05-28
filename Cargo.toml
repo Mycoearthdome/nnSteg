@@ -1,0 +1,13 @@
+[package]
+name = "nnSteg"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tch = "0.4.0"  # PyTorch bindings for Rust
+rand = "0.8"  # To generate random data
+image = "0.25.6"
+
+[[bin]]
+name = "nnSteg"
+path = "nnSteg.rs"
